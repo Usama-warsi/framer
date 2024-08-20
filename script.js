@@ -114,7 +114,7 @@ change.forEach(({ name: e, selector: t }) => {
                       setTimeout(function () {
                         !(function e() {
                             document.querySelector('.framer-17nbhel').addEventListener('click', function() {
-                                alert();
+                                
                                 document.querySelector('input[name="accept_conditions"]').addEventListener('change', function() {
                                     const framerElement = document.querySelector('.framer-y5opg');
                                     
