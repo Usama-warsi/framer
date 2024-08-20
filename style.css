@@ -1,0 +1,276 @@
+.framer-1eurhf5,
+.framer-f7brwn {
+    width: 100% !important
+}
+
+.framer-1n9nvqp {
+    position: absolute !important;
+    right: 0;
+    width: fit-content !important;
+    padding: 0 20px !important;
+}
+
+.framer-izt043 {
+    margin-top: 10px
+}
+
+.framer-1iiufaj {
+    margin-bottom: 20px
+}
+
+.framer-12yldcg {
+    margin-top: 20px
+}
+
+.framer-15w60ra {
+    backdrop-filter: blur(16px) !important;
+}
+
+.framer-1uf43do label,
+.framer-r9fqk3 label,
+.framer-159skc6 label,
+.framer-1dhme2f label,
+.framer-11byjgy label {
+    background-color: transparent !important;
+    background-size: cover;
+    padding: 0px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px 12px;
+    cursor: pointer;
+    position: relative;
+}
+
+.framer-1uf43do label .framer-text,
+.framer-r9fqk3 label .framer-text,
+.framer-159skc6 label .framer-text,
+.framer-1dhme2f label .framer-text,
+.framer-11byjgy label .framer-text {
+    color: #282727;
+    font-size: 14px;
+}
+
+.framer-1uf43do label:hover,
+.framer-r9fqk3 label:hover,
+.framer-159skc6 label:hover,
+.framer-1dhme2f label:hover,
+.framer-11byjgy label:hover {
+    opacity: 1;
+    color: #000 !important;
+}
+
+.framer-1uf43do label input,
+.framer-r9fqk3 label input,
+.framer-159skc6 label input,
+.framer-1dhme2f label input,
+.framer-11byjgy label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100% !important;
+    height: 35px !important;
+    background: #fff;
+}
+
+.framer-1uf43do label div,
+.framer-r9fqk3 label div,
+.framer-159skc6 label div,
+.framer-1dhme2f label div,
+.framer-11byjgy label div {
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 3px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+form.framer-3mvnfc label input:checked {
+    background-image: url(https://framerusercontent.com/images/g7wwPtUIp8e5IA41wypC1ONLV4.png?scale-down-to=512);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0 !important;
+    background-position: center;
+    box-shadow: 0px 0px !important;
+}
+
+.framer-1vsmxgo label,
+.framer-12v8h28 label,
+.framer-1iiufaj label,
+.framer-is87xd label,
+.framer-n770df label,
+.framer-18yrduy label,
+.framer-1f3px9s label {
+    background-color: transparent !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px 12px;
+    cursor: pointer;
+    position: relative !important;
+    padding: 0px 0px !important;
+    text-transform: uppercase;
+    justify-content: center !important;
+}
+
+.framer-1vsmxgo label input,
+.framer-1f3px9s label input,
+.framer-12v8h28 label input,
+.framer-1iiufaj label input,
+.framer-is87xd input,
+.framer-n770df input,
+.framer-18yrduy input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100% !important;
+    height: 35px !important;
+    background: #fff;
+}
+
+.framer-1vsmxgo label div,
+.framer-12v8h28 label div,
+.framer-1iiufaj label div,
+.framer-is87xd label div,
+.framer-n770df label div,
+.framer-18yrduy label div,
+.framer-1f3px9s label div {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: absolute !important;
+}
+
+.framer-1vsmxgo label .framer-text,
+.framer-12v8h28 label .framer-text,
+.framer-1iiufaj .framer-text,
+.framer-is87xd .framer-text,
+.framer-n770df .framer-text,
+.framer-18yrduy .framer-text,
+.framer-1f3px9s .framer-text {
+    color: #282727;
+    font-size: 14px;
+}
+
+.framer-12v8h28 label .framer-text,
+.framer-1f3px9s label .framer-text {
+    margin-left: -40px;
+    font-size: 14px;
+}
+
+.framer-1vsmxgo label input:checked {
+    background-image: url(https://framerusercontent.com/images/g7wwPtUIp8e5IA41wypC1ONLV4.png?scale-down-to=512);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0 !important;
+    background-position: center;
+    box-shadow: 0px 0px !important;
+}
+
+p.white-cont {
+    color: #fff !important;
+}
+
+.framer-n770df label div {
+    padding: 0px 60px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 15px !important;
+    -webkit-appearance: none !important;
+    height: 15px !important;
+    border-radius: 50px !important;
+    border: 1px solid #de3f9b !important;
+    padding: 4px !important;
+    background: url(https://framerusercontent.com/images/fLx6RrbpuRSNKzATzpFPyohCLs.jpg) !important;
+    -webkit-text-fill-color: transparent !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    background-size: cover !important;
+}
+
+label.rangelabel {
+    color: #000 !important;
+    font-weight: 600 !important;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+output#rangeValue {
+    font-weight: 600 !important;
+    float: right;
+}
+
+label input:checked+div .framer-text {
+    color: #fff !important;
+}
+
+.framer-1hjrfs1 label input:checked+div .framer-text {
+    color: #000 !important;
+}
+
+label.framer-1r1csd8 input:checked+div .framer-text,
+label.framer-ku8a16 input:checked+div .framer-text,
+label.framer-1nib6f4 input:checked+div .framer-text {
+    color: #000 !important;
+}
+
+.framer-15w60ra {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+
+.framer-1SkC1 .framer-ha6r0,
+.framer-1SkC1 .framer-1h2lkhm,
+.framer-1SkC1 .framer-h858u2,
+.framer-1SkC1 .framer-17q634d,
+.framer-1SkC1 .framer-1a47h3l,
+.framer-1SkC1 .framer-1pavae,
+.framer-1SkC1 .framer-syrssd,
+.framer-1SkC1 .framer-11njyto,
+.framer-1SkC1 .framer-14oaxw1,
+.framer-1SkC1 .framer-1r05jrq,
+.framer-1SkC1 .framer-r068bj,
+.framer-1SkC1 .framer-14sbcjz,
+.framer-1SkC1 .framer-s1t2be,
+.framer-1SkC1 .framer-sm92ny,
+.framer-1SkC1 .framer-1g3714k,
+.framer-1SkC1 .framer-1mica7y,
+.framer-1SkC1 .framer-1k5asb,
+.framer-1SkC1 .framer-fgu7sj,
+.framer-1SkC1 .framer-qozh2e,
+.framer-1SkC1 .framer-qoyr6e,
+.framer-1SkC1 .framer-1o30nbh,
+.framer-1SkC1 .framer-1mgom7t,
+.framer-1SkC1 .framer-1nrawux,
+.framer-1SkC1 .framer-d5a4hq,
+.framer-1SkC1 .framer-g02v50,
+.framer-1SkC1 .framer-whlyle,
+.framer-1SkC1 .framer-yac7bs,
+.framer-1SkC1 .framer-3lx3aj {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+
+.framer-1SkC1 .framer-s1t2be,
+.framer-1SkC1 .framer-sm92ny,
+.framer-1SkC1 .framer-1g3714k,
+.framer-1SkC1 .framer-1mica7y,
+.framer-1SkC1 .framer-1k5asb,
+.framer-1SkC1 .framer-fgu7sj,
+.framer-1SkC1 .framer-qozh2e,
+.framer-1SkC1 .framer-qoyr6e,
+.framer-1SkC1 .framer-1o30nbh,
+.framer-1SkC1 .framer-1mgom7t,
+.framer-1SkC1 .framer-1nrawux,
+.framer-1SkC1 .framer-d5a4hq,
+.framer-1SkC1 .framer-g02v50,
+.framer-1SkC1 .framer-whlyle,
+.framer-1SkC1 .framer-yac7bs,
+.framer-1SkC1 .framer-3lx3aj {
+    position: absolute !important;
+}
