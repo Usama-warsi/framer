@@ -155,7 +155,7 @@ form.framer-3mvnfc label input:checked {
 
 .framer-12v8h28 label .framer-text,
 .framer-1f3px9s label .framer-text {
-    margin-left: -40px;
+    
     font-size: 14px;
 }
 
@@ -273,4 +273,9 @@ label.framer-1nib6f4 input:checked+div .framer-text {
 .framer-1SkC1 .framer-yac7bs,
 .framer-1SkC1 .framer-3lx3aj {
     position: absolute !important;
+}
+
+.framer-1k5asb p{
+
+margin-left:25px ;
 }
