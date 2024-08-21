@@ -4,11 +4,19 @@ function updateFormValues(e) {
     r = e.target.value;
   (formValues[t] = r), console.log(formValues);
 }
-function updateSelectedLoanPurpose(e, t, r) {
+function updateSelectedLoanPurpose(e, t, r,c) {
   if (e.target.name === t) {
-    let a = e.target.value,
+    let a='';
+    if(e.target.name =='investExp'){
+      a = e.target.value+' years';
+    }
+    else{
+       a = e.target.value}
       n = document.querySelector("." + r);
     n && (n.textContent = a);
+    d = document.querySelector("." + c);
+    const list = d.classList;
+list.add("bg");
   }
 }
 function initializeParagraph(e, t) {
@@ -19,23 +27,23 @@ function initializeParagraph(e, t) {
   }
 }
 const inputs = [
-  { name: "estimated_liquidity", selector: "framer-qv1jmm p" },
-  { name: "estimated_credit_score", selector: "framer-hog4uv p" },
-  { name: "purpose_of_loan", selector: "framer-5bqcnr p" },
-  { name: "loan_type", selector: "framer-1p00p3l p" },
-  { name: "term_length", selector: "framer-1ce4153 p" },
-  { name: "exit_strategy", selector: "framer-1ls0vz0 p" },
-  { name: "property_type", selector: "framer-iulnln p" },
+  { name: "estimated_liquidity",class:"framer-2dhu1x", selector: "framer-qv1jmm p" },
+  { name: "estimated_credit_score",class:"framer-1ao7k1y", selector: "framer-hog4uv p" },
+  { name: "purpose_of_loan",class:"framer-43sdov", selector: "framer-5bqcnr p" },
+  { name: "loan_type",class:"framer-1qcpykd", selector: "framer-1p00p3l p" },
+  { name: "term_length",class:"framer-txy3p5", selector: "framer-1ce4153 p" },
+  { name: "exit_strategy", class:"framer-15ep3f3",selector: "framer-1ls0vz0 p" },
+  { name: "property_type",class:"framer-1xq5a03", selector: "framer-iulnln p" },
 ];
-inputs.forEach(({ name: e, selector: t }) => {
+inputs.forEach(({ name: e,class:c, selector: t }) => {
   document.addEventListener("click", function (r) {
-    updateSelectedLoanPurpose(r, e, t);
+    updateSelectedLoanPurpose(r, e, t,c);
   }),
     initializeParagraph(e, t);
 });
 const change = [
-  { name: "investExp", selector: "framer-j84x7g p" },
-  { name: "rentalProp", selector: "framer-1faotx7 p" },
+  { name: "investExp",class:"framer-4kpw1q", selector: "framer-j84x7g p" },
+  { name: "rentalProp",class:"framer-6t3of9", selector: "framer-1faotx7 p" },
 ];
 function checkFields() {
   let e = ["first_name", "last_name", "email", "phone_number"].every(
@@ -45,9 +53,10 @@ function checkFields() {
 //     t = document.querySelector(".framer-168t776");
 //   t.style.display = e ? "block" : "none";
 }
-change.forEach(({ name: e, selector: t }) => {
+change.forEach(({ name: e,class:c, selector: t }) => {
   document.addEventListener("change", function (r) {
-    updateSelectedLoanPurpose(r, e, t);
+   
+    updateSelectedLoanPurpose(r, e, t,c);
   }),
     initializeParagraph(e, t);
 }),
@@ -55,7 +64,8 @@ change.forEach(({ name: e, selector: t }) => {
     updateSelectedLoanPurpose(
       e,
       "Subject_property_address",
-      "framer-126eccj p"
+      "framer-126eccj p",
+      "framer-1n9nvqp"
     );
   }),
   initializeParagraph("Subject_property_address", "framer-126eccj p"),
