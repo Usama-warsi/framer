@@ -307,3 +307,13 @@ overflow-x: scroll !important;
 .framer-MkBdt .framer-ha6r0, .framer-MkBdt .framer-1h2lkhm, .framer-MkBdt .framer-h858u2, .framer-MkBdt .framer-17q634d, .framer-MkBdt .framer-1a47h3l, .framer-MkBdt .framer-1pavae, .framer-MkBdt .framer-syrssd, .framer-MkBdt .framer-11njyto, .framer-MkBdt .framer-14oaxw1, .framer-MkBdt .framer-1r05jrq, .framer-MkBdt .framer-r068bj, .framer-MkBdt .framer-14sbcjz{
     justify-content:center !important;
 }
+
+.bg{
+    background-image: url(https://framerusercontent.com/images/g7wwPtUIp8e5IA41wypC1ONLV4.png?scale-down-to=512);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .bg div p{
+    color: #fff !important;
+  }
