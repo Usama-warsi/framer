@@ -114,16 +114,23 @@ change.forEach(({ name: e, selector: t }) => {
                       setTimeout(function () {
                         !(function e() {
                             document.querySelector('.framer-17nbhel').addEventListener('click', function() {
-                                
-                                document.querySelector('input[name="accept_conditions"]').addEventListener('change', function() {
-                                    const framerElement = document.querySelector('.framer-y5opg');
-                                    
-                                    if (this.checked) {
-                                        framerElement.style.display = 'none';
-                                    } else {
-                                        framerElement.style.display = 'block';
-                                    }
-                                });
+                              
+                              setTimeout(function(){
+                                  
+                                document.querySelector('.framer-1bwog5g').addEventListener('change', function() {
+                                  const framerElement = document.querySelector('.framer-k5wwgf');
+                                  const framerElement1 = document.querySelector('.framer-16j2cpu');
+                                  
+                                  if (this.checked) {
+                                      framerElement.style.filter = 'grayscale(0)';
+                                      framerElement1.style.filter = 'grayscale(0)';
+                                  } else {
+                                      framerElement.style.filter = 'grayscale(1)';
+                                      framerElement1.style.filter = 'grayscale(1)';
+                                  }
+                              });
+                              },500);
+
                             });
                           let t = document.querySelector("form");
                           for (let r in formValues)
