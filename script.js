@@ -114,7 +114,7 @@ change.forEach(({ name: e, selector: t }) => {
                       setTimeout(function () {
                         !(function e() {
                             document.querySelector('.framer-17nbhel').addEventListener('click', function() {
-                              
+                           console.log(formValues);   
                               setTimeout(function(){
                                   
                                 document.querySelector('.framer-1bwog5g').addEventListener('change', function() {
@@ -129,7 +129,7 @@ change.forEach(({ name: e, selector: t }) => {
                                       framerElement1.style.filter = 'grayscale(1)';
                                   }
                               });
-                              },500);
+                              },200);
 
                             });
                           let t = document.querySelector("form");
@@ -153,4 +153,5 @@ change.forEach(({ name: e, selector: t }) => {
 
     
    
+
     
