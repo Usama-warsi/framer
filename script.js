@@ -124,7 +124,7 @@ change.forEach(({ name: e,class:c, selector: t }) => {
                       setTimeout(function () {
                         !(function e() {
                             document.querySelector('.framer-17nbhel').addEventListener('click', function() {
-                           console.log(formValues);   
+                             
                               setTimeout(function(){
                                   
                                 document.querySelector('.framer-1bwog5g').addEventListener('change', function() {
@@ -142,22 +142,47 @@ change.forEach(({ name: e,class:c, selector: t }) => {
                               },200);
 
                             });
-                          let t = document.querySelector("form");
-                          for (let r in formValues)
-                            if (formValues.hasOwnProperty(r)) {
-                              let a = document.createElement("input");
-                              (a.type = "hidden"),
-                                (a.name = r),
-                                (a.id = r),
-                                (a.value = formValues[r]),
-                                t.appendChild(a);
-                            }
+                         
+                          ["purpose_of_loan","loan_type",'term_length','purchase_date','spent_to_date','exit_strategy','construction_scope','started_construction'].forEach((e) => {
+                            document
+                              .querySelector(`input[name="${e}"]`)
+                              .addEventListener("click", updateFormValues),
+                              document
+                                .querySelectorAll(`input[name="${e}"]`)
+                                .forEach((e) => {
+                                  e.addEventListener("change", updateFormValues);
+                                });
+                          }),["purchase_price",'total_construction_budget','after_repair_value','as_is_value','after_repair_value','current_mortage_abount'].forEach((e) => {
+                            document
+                              .querySelector(`input[name="${e}"]`)
+                              .addEventListener("input", updateFormValues);
+                          }), ["occupency", "loan_to_value"].forEach((e) => {
+                            document
+                              .querySelector(`input[name="${e}"]`)
+                              .addEventListener("change", updateFormValues);
+                          }), document.querySelector('.framer-17nbhel').addEventListener('click', function() {
+                             
+                            setTimeout(function(){
+                              let t = document.querySelector("form");
+                              for (let r in formValues)
+                                if (formValues.hasOwnProperty(r)) {
+                                  let a = document.createElement("input");
+                                  (a.type = "hidden"),
+                                    (a.name = r),
+                                    (a.id = r),
+                                    (a.value = formValues[r]),
+                                    t.appendChild(a);
+                                }
+                            },200);
+
+                          });
+
                         })();
-                      }, 500);
+                      }, 300);
                     });
-              }, 500);
+              }, 300);
             });
-      }, 500);
+      }, 300);
     });
 
 

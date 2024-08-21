@@ -142,8 +142,6 @@ form.framer-3mvnfc label input:checked {
     position: absolute !important;
 }
 
-.framer-1vsmxgo label .framer-text,
-.framer-12v8h28 label .framer-text,
 .framer-1iiufaj .framer-text,
 .framer-is87xd .framer-text,
 .framer-n770df .framer-text,
@@ -156,7 +154,8 @@ form.framer-3mvnfc label input:checked {
 .framer-12v8h28 label .framer-text,
 .framer-1f3px9s label .framer-text {
     
-    font-size: 14px;
+    color: #282727;
+    font-size: 10px;
 }
 
 .framer-1vsmxgo label input:checked {
@@ -277,7 +276,7 @@ label.framer-1nib6f4 input:checked+div .framer-text {
 
 .framer-1k5asb p{
 
-margin-left:25px ;
+margin-left:0px ;
 }
 
 
