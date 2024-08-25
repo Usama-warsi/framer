@@ -314,3 +314,74 @@ overflow-x: scroll !important;
   .bg div p{
     color: #fff !important;
   }
+.framer-15w60ra,.framer-2cag7c,.framer-zbas7t,.framer-zbas7t,.framer-13r39w4,.framer-8vvonv {
+    backdrop-filter: blur(16px) !important;
+}
+.framer-1cbxia8{
+        backdrop-filter:blur(10px) !important;
+    }
+.framer-1gz3l4q-container button,.framer-1hb4h16-container button,.framer-sw4yw7-container button,.framer-551rmm-container button, .framer-bcs36a-container button{
+    background-image: url(https://framerusercontent.com/images/g7wwPtUIp8e5IA41wypC1ONLV4.png?scale-down-to=512) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    border:transparent !important;
+  }
+
+.framer-3i1vph input,
+.framer-1ghmwqc input,
+.framer-q14oe6 input,
+.framer-5e0zl1 input,
+.framer-142r2zc input,
+.framer-1pzg835 input,
+.framer-1dego4t input ,
+.framer-bmk3hl input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100% !important;
+    height: 35px !important;
+    background: #fff;
+}
+
+
+.framer-3i1vph label,
+.framer-1ghmwqc label,
+.framer-q14oe6 label,
+.framer-142r2zc label,
+.framer-5e0zl1 label,
+.framer-1pzg835 label,
+.framer-1dego4t label ,
+.framer-bmk3hl label {
+    background-color: transparent !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px 12px;
+    cursor: pointer;
+    position: relative !important;
+    padding: 0px 0px !important;
+    text-transform: uppercase;
+    justify-content: center !important;
+}
+form.framer-suFtr.framer-3mvnfc.framer-v-3mvnfc label input:checked {
+    background-image: url(https://framerusercontent.com/images/g7wwPtUIp8e5IA41wypC1ONLV4.png?scale-down-to=512);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0 !important;
+    background-position: center;
+    box-shadow: 0px 0px !important;
+}
+.framer-13r39w4::-webkit-scrollbar{
+    width: 0 !important;
+}
+
+.framer-id5oe4,.framer-f78q6p{
+    filter:grayscale(1);
+}
+
+.framer-10f7we0 label input:checked+div .framer-text {
+    color: #000 !important;
+}
