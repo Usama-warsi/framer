@@ -5677,13 +5677,13 @@ document.addEventListener("keyup", function (e) {
       'framer-yjpsid'
     );
   })
-  window.onload = function() {
+  setTimeout(function() {
     // Select the element with the name attribute 'accept_conditions'
     var element = document.querySelector('[name="accept_conditions"]');
-    if (element) {
+  
         element.setAttribute('onchange', 'yourFunction(this)');
-    }
-};
+
+},5000);
 
 function yourFunction(e) {
     // Select elements with the specified classes
